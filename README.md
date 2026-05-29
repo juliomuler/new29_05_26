@@ -1,1 +1,10 @@
 # new29_05_26
+A principal função do GitHub é hospedar códigos-fonte na nuvem e facilitar o trabalho colaborativo entre programadores, utilizando o sistema de controle de versão Git.
+A plataforma vai muito além de um simples armazenamento e oferece recursos essenciais para desenvolvedores:Hospedagem de Repositórios: Permite que você guarde seus projetos (códigos, imagens, textos) em servidores remotos, deixando-os públicos (código aberto) ou privados.Controle de Versão: Através do Git, ele registra e rastreia todas as alterações feitas no código ao longo do tempo. Se algo der errado, você consegue voltar para qualquer versão anterior com segurança.Branching (Ramificações): Permite criar "cópias" do projeto para desenvolver novas funcionalidades ou corrigir erros de forma isolada, sem alterar o código principal (o main ou master).
+Passo 1: Criar o Repositório no GitHubAcesse sua conta no GitHub e clique no botão "+" no canto superior direito ou no botão verde "New".Em Repository name, digite o nome do seu projeto.Escolha se o projeto será Public (público) ou Private (privado).Não marque nenhuma das opções de inicialização (como Add a README file ou .gitignore). Apenas clique em Create repository.Passo 2: Preparar o Projeto no seu ComputadorAbra o terminal (ou o terminal do VS Code) e entre na pasta do seu projeto usando o comando cd.Inicialize o Git na pasta com o comando:bashgit init
+Use o código com cuidado.Adicione todos os arquivos do seu projeto para serem rastreados:bashgit add .
+Use o código com cuidado.Faça o primeiro "commit" (que é salvar/descrever as alterações):bashgit commit -m "Meu primeiro commit"
+Use o código com cuidado.Passo 3: Enviar os Arquivos para o GitHubConecte o seu projeto local ao repositório que você criou no site do GitHub. Digite (substitua a URL pelo link do seu próprio repositório):bashgit remote add origin https://github.com
+Use o código com cuidado.Renomeie a ramificação (branch) principal para main:bashgit branch -M main
+Use o código com cuidado.Envie os arquivos para o GitHub:bashgit push -u origin main
+Use o código com cuidado.
